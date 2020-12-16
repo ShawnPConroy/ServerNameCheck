@@ -1,4 +1,4 @@
-<!-- Partial Solution server confirmation check v2 -->
+<!-- Partial Solution server confirmation check v3 -->
 <?php $servername = explode('.', gethostname())[0]; ?>
 <html>
 <head>
@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <style>
     body {
-        background-image: url(http://partialsolution.ca/images/ps-logo.svg);
+        background-image: url(https://partialsolution.ca/images/ps-logo.svg);
         background-size: cover;
         background-repeat: no-repeat;
         color: orange;
