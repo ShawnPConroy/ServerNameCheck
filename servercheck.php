@@ -1,4 +1,3 @@
-<!-- Partial Solution server confirmation check v3 -->
 <?php $servername = explode('.', gethostname())[0]; ?>
 <html>
 <head>
@@ -10,17 +9,26 @@
         background-image: url(https://partialsolution.ca/images/ps-logo.svg);
         background-size: cover;
         background-repeat: no-repeat;
-        color: orange;
-        background-color: white;
         font-family: 'Share Tech Mono', monospace;
     }
+    body, a {
+        color: orange;
+        background-color: white;
+
+    }
     p {
-        margin-top: 24.7%;
-        width: 47%;
         text-align: center;
+        width: 47%;
+        margin: 0;
+    }
+    #sname {
+        margin-top: 24.7%;
         font-size: xx-large;
     }
     </style>
 </head>
-<body><p><?php echo $servername ?></p></body>
+<body>
+    <p id="sname"><?php echo $servername ?></p>
+    <p><a href="https://github.com/ShawnPConroy/ServerNameCheck/blob/main/servercheck.php">v4</a></p>
+</body>
 </html>
