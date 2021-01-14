@@ -1,5 +1,9 @@
-<?php $servername = explode('.', gethostname())[0]; ?>
-<html>
+<?php
+$ver = '5';
+$servername = explode('.', gethostname())[0];
+?>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <title><?php echo $servername .'-'. $_SERVER['HTTP_HOST'] ?></title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -28,7 +32,7 @@
     </style>
 </head>
 <body>
-    <p id="sname"><?php echo $servername ?></p>
-    <p><a href="https://github.com/ShawnPConroy/ServerNameCheck/blob/main/servercheck.php">v4</a></p>
+    <p id="sname"><?php echo $servername; ?></p>
+    <p><a href="https://github.com/ShawnPConroy/ServerNameCheck/blob/main/servercheck.php">v<?php echo $ver; ?></a></p>
 </body>
 </html>
