@@ -1,10 +1,11 @@
 <?php
-$ver = '5';
+$ver = '6';
 $servername = explode('.', gethostname())[0];
 ?>
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang=en>
 <head>
+    <meta charset=utf-8>
     <title><?php echo $servername .'-'. $_SERVER['HTTP_HOST'] ?></title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
